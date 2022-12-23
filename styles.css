@@ -63,19 +63,15 @@ section#about p {
   color: #be3144;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
 
 section#work {
   background-color: #45567d;
+  padding: 4rem;
 }
 
 section#work h2 {
   margin: 0;
+  margin-bottom: 1rem;
   text-align: center;
   padding: 2rem;
   color: white;
@@ -100,7 +96,7 @@ div#projects h1 {
 }
 
 div#projects img {
-  width: 20rem;
+  width: 30rem;
   height: 20rem;
 }
 
@@ -124,3 +120,47 @@ p.project-name {
   padding: 1rem;
   color: white;
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-color: #303841;
+  color: #fff;
+}
+
+.button {
+  text-decoration: none;
+  color: var(--main-white);
+  margin-right: 2rem;
+}
+
+#contact p {
+  font-style: italic;
+  font-size: medium;
+  margin-bottom: 4rem;
+}
+
+#contact h2 {
+  font-weight: bold;
+font-size: 3rem;
+margin: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 6px solid #be3144;
+padding: 0;
+margin: 0;
+height: 4rem;
+}
+
+footer p {
+  margin-top: 1.5rem;
+}
+
